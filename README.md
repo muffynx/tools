@@ -14,8 +14,8 @@ git remote add origin https://github.com/muffynx/.git  # Add remote repository
 ```
 git branch -M main  # Rename branch to 'main' (if needed)
 ```
-```
-```
+
+
 ```
 git push -u origin main  # Push the code to GitHub
 
