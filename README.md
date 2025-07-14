@@ -20,3 +20,4 @@ git branch -M main  # Rename branch to 'main' (if needed)
 git push -u origin main  # Push the code to GitHub
 
 ```
+git push -u origin main --force เขียนทับ
