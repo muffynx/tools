@@ -33,3 +33,8 @@ remove origin
 ```
 git remote remove origin 
 ```
+
+show origin
+```
+git remote show origin
+```
