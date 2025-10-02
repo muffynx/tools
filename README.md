@@ -38,3 +38,21 @@ show origin
 ```
 git remote show origin
 ```
+git pull origin master
+วิธีแก้
+
+เช็ค branch ที่มีใน remote ก่อน
+
+git fetch origin
+git branch -r
+
+
+จะเห็นรายการเช่น
+
+origin/main
+origin/dev
+
+
+ถ้า branch หลักคือ main ให้ใช้
+
+git pull origin main
