@@ -56,3 +56,23 @@ origin/dev
 ถ้า branch หลักคือ main ให้ใช้
 
 git pull origin main
+
+
+วิธีที่ 2: ทิ้งของ local แล้วใช้ของ GitHub ทั้งหมด
+
+ใช้เมื่อ local ยังไม่สำคัญ
+```
+git fetch origin
+git reset --hard origin/main
+```
+
+⚠️ โค้ดในเครื่องจะหายหมด
+
+✅ วิธีที่ 3: เอา local ไปทับ GitHub
+
+ใช้เมื่อ local คือของจริง
+```
+git push origin main --force
+```
+
+⚠️ โค้ดบน GitHub จะโดนเขียนทับ
